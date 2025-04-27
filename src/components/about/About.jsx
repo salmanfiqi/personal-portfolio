@@ -19,7 +19,7 @@ const About = () => {
               also I am good at WordPress.
             </p>
             <a href="" className="btn">
-              Download Resume
+              Download CV
             </a>
           </div>
 
