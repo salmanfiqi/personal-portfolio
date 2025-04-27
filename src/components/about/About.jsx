@@ -14,19 +14,20 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">
-              I am Bolby Doe, web developer from London, United Kingdom. I have
-              rich experience in web site design and building and customization,
-              also I am good at WordPress.
+            Hi, I'm Salman Fiqi, a Computer Science major at the University of Minnesota passionate about building scalable software. 
+            I'm currently working on a Drone Simulation project using Agile methodologies to extend complex systems. 
+            As a former Stanford TA, I taught Python to a global audience, which strengthened my fundamentals and passion for mentorship. 
+            Recently, I visited LinkedIn HQ, inspiring me to continue fostering a growth mindset as I pursue a career in software engineering.
             </p>
-            <a href="" className="btn">
-              Download CV
+            <a href="/resume-salman-fiqi.pdf" className="btn">
+              Download Resume
             </a>
           </div>
 
           <div className="about__skills grid">
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">Development</h3>
+                <h3 className="skills__name">Software Development</h3>
                 <span className="skills__number">90%</span>
               </div>
 
@@ -37,8 +38,8 @@ const About = () => {
 
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">UI/UX design</h3>
-                <span className="skills__number">80%</span>
+                <h3 className="skills__name">Cloud & AWS</h3>
+                <span className="skills__number">85%</span>
               </div>
 
               <div className="skills__bar">
@@ -48,8 +49,8 @@ const About = () => {
 
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">Photography</h3>
-                <span className="skills__number">60%</span>
+                <h3 className="skills__name">Full-Stack Development</h3>
+                <span className="skills__number">80%</span>
               </div>
 
               <div className="skills__bar">
