@@ -1,8 +1,7 @@
 import React from "react";
 import "./home.css";
-import Me from "../../assets/avatar-1.svg";
+import Me from "../../assets/profile.png";
 import HeaderSocials from "./HeaderSocials";
-import ScrollDown from "./ScrollDown";
 import Shapes from "./Shapes";
 
 const Home = () => {
@@ -10,8 +9,8 @@ const Home = () => {
     <section className="home container" id="home">
       <div className="intro">
         <img src={Me} alt="" className="home__img" />
-        <h1 className="home__name">Bolby Doe</h1>
-        <span className="home__education">I'm a Front-End developer</span>
+        <h1 className="home__name">Salman Fiqi</h1>
+        <span className="home__education">Aspiring Software Seveloper</span>
 
         <HeaderSocials />
 
@@ -19,7 +18,6 @@ const Home = () => {
           Hire Me
         </a>
 
-        <ScrollDown />
       </div>
 
       <Shapes />

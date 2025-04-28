@@ -13,6 +13,10 @@
 }
 
 .home__img {
+  width: 140px; /* smaller size */
+  height: 140px; /* match width for circle */
+  object-fit: cover; /* keeps your face centered */
+  border-radius: 50%; /* makes it a circle */
   margin-bottom: 1.5rem;
 }
 
@@ -20,6 +24,13 @@
   font-size: var(--h1-font-size);
   font-weight: var(--font-bold);
   margin-bottom: 0.5rem;
+}
+
+.home__education {
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+  display: block;
+  margin-bottom: 1.5rem;
 }
 
 .home__socials {
@@ -64,15 +75,12 @@
   0% {
     top: 29%;
   }
-
   15% {
     top: 50%;
   }
-
   50% {
     top: 50%;
   }
-
   100% {
     top: 29%;
   }
@@ -102,63 +110,24 @@
   position: absolute;
 }
 
-.s1 {
-  left: 2%;
-  top: 10%;
-}
-
-.s2 {
-  left: 18%;
-  top: 30%;
-}
-
-.s3 {
-  left: 5%;
-  bottom: 30%;
-}
-
-.s4 {
-  left: 2%;
-  bottom: 10%;
-}
-
-.s5 {
-  left: 44%;
-  top: 10%;
-}
-
-.s6 {
-  left: 36%;
-  bottom: 10%;
-}
-
-.s7 {
-  top: 20%;
-  right: 25%;
-}
-
-.s8 {
-  right: 24%;
-  bottom: 20%;
-}
-
-.s9 {
-  right: 2%;
-  top: 10%;
-}
-
-.s10 {
-  top: 45%;
-  right: 11%;
-}
-
-.s11 {
-  bottom: 10%;
-  right: 2%;
-}
+.s1 { left: 2%; top: 10%; }
+.s2 { left: 18%; top: 30%; }
+.s3 { left: 5%; bottom: 30%; }
+.s4 { left: 2%; bottom: 10%; }
+.s5 { left: 44%; top: 10%; }
+.s6 { left: 36%; bottom: 10%; }
+.s7 { top: 20%; right: 25%; }
+.s8 { right: 24%; bottom: 20%; }
+.s9 { right: 2%; top: 10%; }
+.s10 { top: 45%; right: 11%; }
+.s11 { bottom: 10%; right: 2%; }
 
 @media screen and (max-width: 1024px) {
   .home__social-link {
     font-size: 1.125rem;
+  }
+  .home__img {
+    width: 120px;
+    height: 120px;
   }
 }
